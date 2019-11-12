@@ -4,6 +4,7 @@ body {
 }
 .navbar {
   border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
 }
 #home-section {
   background: url(../img/home.jpg);
@@ -18,10 +19,10 @@ body {
   left: 0;
   width: 100%;
   min-height: 700px;
-  background: rgb(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
 }
-#home-section #home-inner {
-  padding-top: 115px;
+#home-section .home-inner {
+  padding-top: 150px;
 }
 #home-section .card-form {
   opacity: 0.8;
